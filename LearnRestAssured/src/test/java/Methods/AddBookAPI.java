@@ -26,6 +26,9 @@ public class AddBookAPI {
         if(sMyMessage.equalsIgnoreCase("successfully added")){
             System.out.println("Book ID is :-"+sBookID);
         }
+        else {
+            System.out.println("Book not added");
+        }
 
     }
 }
