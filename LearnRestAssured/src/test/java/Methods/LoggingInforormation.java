@@ -21,6 +21,7 @@ public class LoggingInforormation {
       int iSize=js.get("data.size()");
       for(int iStart=0;iStart<iSize;iStart++){
           System.out.println("First Name is:-"+js.get("data["+iStart+"].first_name"));
+          System.out.println("Last Name is:-"+js.get("data["+iStart+"].last_name"));
       }
 
     }
