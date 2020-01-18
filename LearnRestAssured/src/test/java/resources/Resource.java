@@ -1,5 +1,6 @@
 package resources;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.testng.reporters.Files;
 import sun.misc.IOUtils;
@@ -23,5 +24,16 @@ public class Resource {
     public static void fnGetDataInXMLFormat(String sFilePath) throws FileNotFoundException {
         FileInputStream fileInputStream=new FileInputStream(sFilePath);
 //        fileInputStrea
+    }
+
+    public static String fnAddBook() {
+        String sPayLoad="{\n" +
+                "\n" +
+                "\t\"name\":\"Learn Appium Automation with Java Updated\",\n" +
+                "\t\"isbn\":\"bcd2\",\n" +
+                "\t\"aisle\":\"227"+ RandomStringUtils.randomNumeric(7) +"\",\n" +
+                "\t\"author\":\"John foe\"\n" +
+                "}";
+        return sPayLoad;
     }
 }

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c14d860-b5aa-44d4-867a-aa5220a58f39" name="Default" comment="" />
+    <list default="true" id="4c14d860-b5aa-44d4-867a-aa5220a58f39" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Methods/AddBookAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/LearnRestAssured.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Methods/LoggingInforormation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Methods/LoggingInforormation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resources/Resource.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,8 +35,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1WTX19w8oV5XyJHK1jkLRJffDpz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project/workspace/CSOPortalAutomation/digital-CSO-portal-BDD-tests/CSPortalAutomation/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoggingInforormation.fnLoggingInforormation">
+  <component name="RunManager" selected="TestNG.AddBookAPI.fnAddBookAPI (3)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -66,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAndDeletePlaceXMLFormat" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddBookAPI.fnAddBookAPI (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +89,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Methods" />
-      <option name="MAIN_CLASS_NAME" value="Methods.AddAndDeletePlaceXMLFormat" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Methods.AddBookAPI" />
+      <option name="METHOD_NAME" value="fnAddBookAPI" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -84,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAndDeletePlaceXMLFormat.fnAddAndDeletePlace" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddBookAPI.fnAddBookAPI (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +108,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Methods" />
-      <option name="MAIN_CLASS_NAME" value="Methods.AddAndDeletePlaceXMLFormat" />
-      <option name="METHOD_NAME" value="fnAddAndDeletePlace" />
+      <option name="MAIN_CLASS_NAME" value="Methods.AddBookAPI" />
+      <option name="METHOD_NAME" value="fnAddBookAPI" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddBookAPI.fnAddBookAPI (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearnRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Methods" />
+      <option name="MAIN_CLASS_NAME" value="Methods.AddBookAPI" />
+      <option name="METHOD_NAME" value="fnAddBookAPI" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddBookAPI.fnAddBookAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearnRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Methods" />
+      <option name="MAIN_CLASS_NAME" value="Methods.AddBookAPI" />
+      <option name="METHOD_NAME" value="fnAddBookAPI" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -122,44 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopJsonObject.fnLoopJsonObject (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearnRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Methods" />
-      <option name="MAIN_CLASS_NAME" value="Methods.LoopJsonObject" />
-      <option name="METHOD_NAME" value="fnLoopJsonObject" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopJsonObject.fnLoopJsonObject" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearnRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Methods" />
-      <option name="MAIN_CLASS_NAME" value="Methods.LoopJsonObject" />
-      <option name="METHOD_NAME" value="fnLoopJsonObject" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -171,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddBookAPI.fnAddBookAPI (3)" />
+        <item itemvalue="TestNG.AddBookAPI.fnAddBookAPI (2)" />
+        <item itemvalue="TestNG.AddBookAPI.fnAddBookAPI" />
+        <item itemvalue="TestNG.AddBookAPI.fnAddBookAPI (1)" />
         <item itemvalue="TestNG.LoggingInforormation.fnLoggingInforormation" />
-        <item itemvalue="TestNG.LoopJsonObject.fnLoopJsonObject" />
-        <item itemvalue="TestNG.LoopJsonObject.fnLoopJsonObject (1)" />
-        <item itemvalue="TestNG.AddAndDeletePlaceXMLFormat.fnAddAndDeletePlace" />
-        <item itemvalue="TestNG.AddAndDeletePlaceXMLFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +205,29 @@
       <option name="presentableId" value="Default" />
       <updated>1553918205027</updated>
     </task>
+    <task id="LOCAL-00001" summary="Edited First Change">
+      <created>1579330550106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579330550106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edited First Change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited First Change" />
   </component>
 </project>
